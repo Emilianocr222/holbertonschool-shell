@@ -1,23 +1,17 @@
-0-hello_world is a script that prints "Hello, World", followed by a new line to the standard output.
-1-confused_smiley is a script that displays a confused smiley.
-2-hellofile is a sriptthat display the content of the /etc/passwd file.
-3-twofiles is script that display the content of /etc/passwd and /etc/hosts.
-4-lastlines is a script that display the last 10 lines of /etc/passwd.
-5-firstlines is a script that display the first 10 lines of /etc/passwd.
-6-third_line is script that displays the third line of the file iacta.
-7-file is a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
-8-cwd_state is a script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it.
-9-duplicate_last_line is a script that duplicates the last line of the file iacta
-10-no_more_js is a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
-11-directories is  a script that counts the number of directories and sub-directories in the current directory.
-12-newest_files is a script that displays the 10 newest files in the current directory.
-13-unique is a script that takes a list of words as input and prints only words that appear exactly once.
-14-findthatword is a script that display lines containing the pattern "root" from the file /etc/passwd.
-15-countthatword is a script that display lines containing the pattern "root" and 3 lines after them in the file /etc/passwd.
-16-whatsnext is a script that display lines containing the pattern "root" and 3 lines after them in the file /etc/passwd.
-17-hidethisword is a script that display all the lines in the file /etc/passwd that do not contain the pattern "bin".
-18-letteronly is a script that display all lines of the file /etc/ssh/sshd_config starting with a letter.
-19-AZ  is a script that replace all characters A and c from input to Z and e respectively.
-20-hiago ia a script that removes all letters c and C from input.
-21-reverse is  a script that reverse its input.
-22-users_and_homes is a script that displays all users and their home directories, sorted by users.
+0-iam betty is a script that changes the permissions for the user betty.
+1-who_am_i is a script that print the effective username of the current user.
+2-groups i a script that prints all the groups the current user is part of.
+3-new_owner is a script that changes the owner of the file hello to the user betty.
+4-empty is a script that creates an empty file called hello.
+5-execute is a script that adds execute permission to the owner of the file hello.
+6-multiple_permissions is a script that adds execute permission to the owner and the group owner, and read permission toother users, to the file hello.
+7-everybody is a script that adds execution permission to the owner, the group owner and the other users, to the file hello.
+8-James_Bond is a script that sets the permissions of the file hello to 007.
+9-John_Doe is a script that sets the permissions of the file hello to 753.
+10-mirror_permissions is a script that sets the mode of the file hello the same as olleh´s mode
+11-directories_permissions is a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
+12-directory_permissions is a script that creates a directory called my_dir with permissions 751 in the working directory.
+13-change_group is a script that changes the group owner to school for the file hello.
+14-change_owner_and_group is a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
+15-symbolic_link_permissions is a script that changes the owner and the group owner of _hello to vincent and staff respectively.
+16-if_only is a script that changes the owner of the file hello to vincent only if it is owned by the user guillaume.
